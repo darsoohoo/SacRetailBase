@@ -1,0 +1,64 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="CSUS.master.vb" Inherits="MIS124_Lab3_RequestForInfo.CSUS" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+
+.site-title {
+    color: #c8c8c8;
+    font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
+    font-size: 2.3em;
+    margin: 0;
+}
+
+        .auto-style1
+        {
+            width: 89px;
+            height: 82px;
+        }
+        
+.site-title a {
+    background: none;
+    color: #c8c8c8;
+    outline: none;
+    text-decoration: none;
+}
+
+
+    a:link {
+        color: #333;
+    }
+
+    a {
+    color: #333;
+    outline: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-decoration: underline;
+}
+
+        .auto-style2
+        {
+            font-family: Rockwell;
+            font-style: italic;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <p class="site-title" style="vertical-align: middle; width: 563px;">
+            <img alt="Sacramento State Seal" class="auto-style1" src="Images/th2.jpg" /><a href="~/">Sacramento State</a> <span class="auto-style2">Redefine the Possible</span></p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
